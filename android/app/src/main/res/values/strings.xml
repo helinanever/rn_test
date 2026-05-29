@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">MyApp</string>
     <string moduleConfig="true" name="CodePushServerUrl">https://codepush.pro/</string>
-    <string moduleConfig="true" name="CodePushDeploymentKey">YOUR_DEPLOYMENT_KEY</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">h5wtWBSRZLM_uDw46iFJlYdl7JeX600ab83429657a000750daf3</string>
 </resources>

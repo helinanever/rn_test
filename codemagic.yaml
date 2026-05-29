@@ -16,8 +16,8 @@ workflows:
 
       - name: Release iOS OTA to Staging
         script: |
-          code-push release-react MyApp-iOS ios --deploymentName Staging
+          code-push release-react helinaiOSApp ios --deploymentName Staging
 
       - name: Release Android OTA to Staging
         script: |
-          code-push release-react MyApp-Android android --deploymentName Staging
+          code-push release-react helinaAndroidApp android --deploymentName Staging

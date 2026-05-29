@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "skills": {
+    "codemagic-codepush": {
+      "source": "codemagic-ci-cd/codemagic-skills",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "skills/codemagic-codepush/SKILL.md",
+      "computedHash": "56668f69f0762664800aa8a65ccfd87189f76ae090fe282f5a152ea9a8231a46"
+    }
+  }
+}

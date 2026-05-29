@@ -1,0 +1,20 @@
+workflows:
+  codepush:
+    name: CodePush
+    scripts:
+      - name: Install CodePush CLI
+        script: npm install -g @codemagic/code-push-cli
+
+      - name: Authenticate CodePush CLI
+        script: code-push login https://codepush.pro --access-key "$CODEPUSH_TOKEN"
+
+      - name: Install dependencies
+        script: npm install
+
+      - name: Release iOS OTA to Staging
+        script: |
+          code-push release-react MyApp-iOS ios --deploymentName Staging
+
+      - name: Release Android OTA to Staging
+        script: |
+          code-push release-react MyApp-Android android --deploymentName Staging

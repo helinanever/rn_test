@@ -1,6 +1,9 @@
 workflows:
   codepush:
     name: CodePush
+    environment:
+      groups:
+        - codepush
     scripts:
       - name: Install CodePush CLI
         script: npm install -g @codemagic/code-push-cli
